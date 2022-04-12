@@ -7,10 +7,6 @@ import { Row } from "../BaseStyledComponents/Row";
 import { TextInput } from "../BaseStyledComponents/TextInput";
 import { Wrapper } from "../BaseStyledComponents/Wrapper"
 
-interface LocationState {
-    from: { pathname: string}
-}
-
 const Login = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('');

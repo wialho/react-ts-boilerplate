@@ -11,4 +11,9 @@ export const PrimaryButton = styled.button`
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+
+    &:disabled {
+        background-color: ${props => props.theme.secondary};
+        cursor: auto;
+    }
 `
